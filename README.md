@@ -1,4 +1,4 @@
-# simpledispatch_py
+# safedispatch.py
 When creating a dispatch function table via python dictionaries a simple problem arises, the key error.
 While there are many ways to avoid the key error, including using try/catch, this library adds extra functionality to make it easy to avoid.
 This is where the dispatch function comes in. 
