@@ -5,8 +5,10 @@ This is where the dispatch function comes in.
 After importing the library like:
 `from safedispatch import *`
 And defining the function like:
-`def function1():
-    pass`
+```python
+def function1():
+    pass
+```
 And making a blank dictionary:
 `dispatch_dictionary = {}`
 Either add the key normally like:
