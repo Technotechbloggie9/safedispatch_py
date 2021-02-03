@@ -21,7 +21,7 @@ dispatch_dictionary['function1']=function1
 ```
 Or use the addkey function like:
 ```python
-addkey('function1', dispatch_dictionary, function1)``
+addkey('function1', dispatch_dictionary, function1)
 ```
 Then you can dispatch like so:
 ```python
