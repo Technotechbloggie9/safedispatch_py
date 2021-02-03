@@ -43,7 +43,7 @@ It's a fairly simple library, but if you want to make a menu structure, you can 
  ```
  Hopefully everything works for you, as it has for me. 
  Tip, if you find the default warnings annoying, turn them off with
- ```
+ ```python
  import sys
 
 if not sys.warnoptions:
