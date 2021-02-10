@@ -42,5 +42,6 @@ It's a fairly simple library, but if you want to make a menu structure, you can 
  dispatch('function1',dispatch_dictionary['option1'])
  ```
 I've recently removed the warnings in the logging component, opting to use logging.info instead. (as of 2/10/2021)
-
+In order to display follow this guide to alter the logger settings. 
+https://docs.python.org/3/howto/logging-cookbook.html
 
