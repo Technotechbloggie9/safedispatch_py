@@ -14,7 +14,7 @@ def dispatch(key, table):
         table.get(key, notfound)()
         result = True
     else:
-        logging.warning("not a callable function")
+        logging.info("not a callable function")
     return result
     
 def addkey(key, table, function):
@@ -39,7 +39,7 @@ def addinner(key, table, innertable = {}):
         table[key] = innertable
         result = True
     else:
-        logging.warning("not a dictionary, try addkey")
+        logging.info("not a dictionary, try addkey")
     return result
 def dictdir(table, option = "none"):
     '''
@@ -56,19 +56,19 @@ def sayhi():
     sayhi is a built in function for testing
     that the library is working, gives a warning
     '''
-    logging.warning("hello, this is just a test")
+    logging.info("hello, this is just a test")
 def notfound():
     '''
     This simple function gives an error message of key not found
     '''
-    logging.warning("key not found")
+    logging.info("key not found")
 def billybob():
     '''
     billybob is a built in function for testing
     that the library is working, gives a warning
     (I thought having two might help)
     '''
-    logging.warning ("testing: Well if it isn't Billy Bob!")
+    logging.info ("testing: Well if it isn't Billy Bob!")
 '''
 #example code
 #purposely doesn't result in errors, at least that often
