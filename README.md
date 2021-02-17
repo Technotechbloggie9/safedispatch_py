@@ -29,7 +29,7 @@ dispatch('function1', dispatch_dictionary)
 ```
 If you need to call a failsafe if the function hasn't been entered
 ```python
-if not dispatch('function1, dispatch_dictionary):
+if not dispatch('function1', dispatch_dictionary):
      print("That's it, nothing else")
 ```
 It's a fairly simple library, but if you want to make a menu structure, you can also do as below
