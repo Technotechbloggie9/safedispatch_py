@@ -74,7 +74,8 @@ def billybob():
 #purposely doesn't result in errors, at least that often
 #but dispatch, delkey, addinner all return False on failure
 #logging function also gives message, but as warning, not error
-#but if used for webdev or gui, it's useless
+#but if used for webdev or gui, it should be using tightly controlled file
+#TODO: adaptation to allow better logging for webdev/GUI
 #thus we use a failsafe option for these such as the if not statement below
 from safedispatch import *
 def main():
